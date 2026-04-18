@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Алексей Миронов | Частный специалист и услуги под ключ</title>
+    <meta
+      name="description"
+      content="Современный одностраничный сайт услуг частного специалиста: консультации, сопровождение, работа под ключ, быстрый отклик и удобная связь."
+    />
+    <meta
+      name="keywords"
+      content="частный специалист, услуги под ключ, консультации, сопровождение, экспертные услуги, Москва"
+    />
+    <meta name="author" content="Алексей Миронов" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#214e49" />
+    <meta property="og:site_name" content="Алексей Миронов" />
+    <meta
+      property="og:title"
+      content="Алексей Миронов | Частный специалист и услуги под ключ"
+    />
+    <meta
+      property="og:description"
+      content="Профессиональная помощь частным клиентам и малому бизнесу: понятные условия, аккуратная работа и быстрый отклик."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/img/og-cover.svg" />
+    <meta property="og:image:alt" content="Обложка сайта частного специалиста Алексея Миронова" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Алексей Миронов | Частный специалист и услуги под ключ"
+    />
+    <meta
+      name="twitter:description"
+      content="Профессиональная помощь частным клиентам и малому бизнесу: понятные условия, аккуратная работа и быстрый отклик."
+    />
+    <meta name="twitter:image" content="assets/img/og-cover.svg" />
+    <meta
+      name="twitter:image:alt"
+      content="Обложка сайта частного специалиста Алексея Миронова"
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" sizes="any" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Prata&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="assets/js/main.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Алексей Миронов",
+        "description": "Частный специалист и ИП. Консультации, сопровождение и работа под ключ для частных клиентов и малого бизнеса.",
+        "image": "assets/img/specialist-portrait.svg",
+        "telephone": "+7 (999) 123-45-67",
+        "email": "hello@mironov-demo.ru",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Пресненская наб., 12",
+          "addressLocality": "Москва",
+          "addressCountry": "RU"
+        },
+        "areaServed": "Россия",
+        "priceRange": "₽₽",
+        "url": "https://example.com"
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Перейти к содержимому</a>
+
+    <!-- АДАПТАЦИЯ: здесь меняются имя специалиста, позиционирование и контакты в шапке -->
+    <header class="site-header" id="top">
+      <div class="container site-header__inner">
+        <a class="brand" href="#hero" aria-label="На первый экран">
+          <span class="brand__mark">AM</span>
+          <span class="brand__text">
+            <strong>Алексей Миронов</strong>
+            <small>частный специалист / ИП</small>
+          </span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Открыть меню"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Основная навигация">
+          <a href="#about">О специалисте</a>
+          <a href="#services">Услуги</a>
+          <a href="#process">Как работаем</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+
+        <div class="header-contact">
+          <a class="header-contact__phone" href="tel:+79991234567">
+            +7 (999) 123-45-67
+          </a>
+          <a class="btn btn--dark btn--small" href="#contacts">Оставить заявку</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- АДАПТАЦИЯ: главный оффер, подзаголовок, CTA и мессенджер меняются в этом блоке -->
+      <section class="hero" id="hero">
+        <div class="hero__backdrop"></div>
+        <div class="container hero__grid">
+          <div class="hero__content" data-reveal>
+            <p class="eyebrow">Профессиональные услуги для частных клиентов и малого бизнеса</p>
+            <h1 class="hero__title">
+              Помогаю решить задачу спокойно, точно и без лишней перегрузки
+            </h1>
+            <p class="hero__lead">
+              Консультации, сопровождение и работа под ключ с понятными условиями,
+              быстрым откликом и аккуратной коммуникацией на каждом этапе.
+            </p>
+
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#contacts">Оставить заявку</a>
+              <a
+                class="btn btn--ghost"
+                href="https://t.me/demo_expert"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Написать в Telegram
+              </a>
+            </div>
+
+            <ul class="hero__benefits" aria-label="Преимущества">
+              <li>Ответ в день обращения</li>
+              <li>Онлайн по всей России</li>
+              <li>Понятные шаги и сроки</li>
+            </ul>
+
+            <div class="hero__metrics" aria-label="Ключевые факты">
+              <div class="metric">
+                <strong>12+ лет</strong>
+                <span>практического опыта</span>
+              </div>
+              <div class="metric">
+                <strong>350+</strong>
+                <span>задач в частной практике</span>
+              </div>
+              <div class="metric">
+                <strong>91%</strong>
+                <span>обращений по рекомендации</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__visual" data-reveal style="--delay: 0.12s">
+            <div class="hero__card hero__card--top">
+              <span class="hero__card-label">Формат работы</span>
+              <strong>Онлайн и очно по записи</strong>
+              <p>Подходит для консультационных, сервисных и экспертных ниш.</p>
+            </div>
+
+            <div class="hero__portrait-frame">
+              <img
+                src="assets/img/specialist-portrait.svg"
+                alt="Фото специалиста"
+                width="620"
+                height="760"
+              />
+            </div>
+
+            <div class="hero__card hero__card--bottom">
+              <span class="hero__card-label">Клиенты ценят</span>
+              <strong>Спокойную подачу и ясные договорённости</strong>
+              <p>Без затягивания, без навязчивых продаж и без скрытых условий.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- АДАПТАЦИЯ: блок о специалисте легко меняется под одного эксперта, ИП или небольшую команду -->
+      <section class="section" id="about">
+        <div class="container about">
+          <div class="about__media" data-reveal>
+            <div class="about__image-wrap">
+              <img
+                src="assets/img/specialist-portrait.svg"
+                alt="Специалист за работой"
+                width="620"
+                height="760"
+              />
+            </div>
+            <div class="about__quote">
+              <p>
+                «Моя задача не просто ответить на вопрос, а предложить понятное
+                решение, которое действительно удобно клиенту».
+              </p>
+            </div>
+          </div>
+
+          <div class="about__content">
+            <div class="section-heading" data-reveal>
+              <p class="eyebrow">О специалисте</p>
+              <h2>Экспертная помощь с человеческой подачей и аккуратной работой</h2>
+              <p>
+                Алексей Миронов ведёт частную практику и помогает клиентам решать
+                задачи, где важны компетентность, деликатность и понятный порядок
+                действий. Этот демо-шаблон одинаково легко адаптируется под юриста,
+                бухгалтера, психолога, консультанта, репетитора или мастера услуг.
+              </p>
+            </div>
+
+            <div class="about__facts">
+              <article class="fact-card" data-reveal style="--delay: 0.04s">
+                <strong>12+ лет</strong>
+                <p>Практический опыт в клиентской работе и сопровождении запросов.</p>
+              </article>
+              <article class="fact-card" data-reveal style="--delay: 0.08s">
+                <strong>350+ кейсов</strong>
+                <p>Частные обращения, повторные клиенты и задачи под ключ.</p>
+              </article>
+              <article class="fact-card" data-reveal style="--delay: 0.12s">
+                <strong>Онлайн / офлайн</strong>
+                <p>Гибкий формат работы под город клиента, сроки и удобство связи.</p>
+              </article>
+              <article class="fact-card" data-reveal style="--delay: 0.16s">
+                <strong>Чёткие договорённости</strong>
+                <p>Стоимость, этапы и результат обсуждаются заранее и фиксируются.</p>
+              </article>
+              <article class="fact-card" data-reveal style="--delay: 0.2s">
+                <strong>Конфиденциально</strong>
+                <p>Информация клиента не передаётся третьим лицам без согласования.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- АДАПТАЦИЯ: названия услуг и описания меняются прямо в карточках ниже -->
+      <section class="section section--soft" id="services">
+        <div class="container">
+          <div class="section-heading section-heading--center" data-reveal>
+            <p class="eyebrow">Услуги</p>
+            <h2>Удобный набор услуг, который легко адаптировать под любую нишу</h2>
+            <p>
+              Карточки построены универсально: можно за 15 минут заменить тексты,
+              и шаблон будет работать для консультанта, эксперта или небольшой компании.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card" data-reveal style="--delay: 0.03s">
+              <span class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M5 6.5h14M5 12h10M5 17.5h8" />
+                  <circle cx="18" cy="17.5" r="2.5" />
+                </svg>
+              </span>
+              <h3>Первичная консультация</h3>
+              <p>
+                Быстрый разбор ситуации, ответы на ключевые вопросы и понимание,
+                как лучше действовать дальше.
+              </p>
+              <a class="service-card__link" href="#contacts">Оставить заявку</a>
+            </article>
+
+            <article class="service-card" data-reveal style="--delay: 0.06s">
+              <span class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M7 4.5h10l3 3V19a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 6 19V6a1.5 1.5 0 0 1 1-1.414Z" />
+                  <path d="M14 4.5V8h3.5" />
+                  <path d="M9 12h6M9 16h4" />
+                </svg>
+              </span>
+              <h3>Анализ материалов</h3>
+              <p>
+                Изучение документов, исходных данных, переписки или текущей
+                ситуации с практическими выводами по делу.
+              </p>
+              <a class="service-card__link" href="#contacts">Узнать подробнее</a>
+            </article>
+
+            <article class="service-card" data-reveal style="--delay: 0.09s">
+              <span class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="m5 16 4-4 3 3 7-7" />
+                  <path d="M16 8h3v3" />
+                  <path d="M5 20h14" />
+                </svg>
+              </span>
+              <h3>План решения задачи</h3>
+              <p>
+                Пошаговая стратегия с приоритетами, сроками и понятными действиями
+                без лишней теории.
+              </p>
+              <a class="service-card__link" href="#contacts">Оставить заявку</a>
+            </article>
+
+            <article class="service-card" data-reveal style="--delay: 0.12s">
+              <span class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <rect x="5" y="5" width="14" height="14" rx="3" />
+                  <path d="M9 12h6M12 9v6" />
+                </svg>
+              </span>
+              <h3>Сопровождение под ключ</h3>
+              <p>
+                Полное ведение задачи: от первого запроса и подготовки решения до
+                результата и обратной связи.
+              </p>
+              <a class="service-card__link" href="#contacts">Узнать подробнее</a>
+            </article>
+
+            <article class="service-card" data-reveal style="--delay: 0.15s">
+              <span class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M12 5v7l4 2.5" />
+                  <circle cx="12" cy="12" r="8" />
+                </svg>
+              </span>
+              <h3>Срочный запрос</h3>
+              <p>
+                Приоритетная работа, когда нужна быстрая реакция, оперативная связь
+                и решение без долгого ожидания.
+              </p>
+              <a class="service-card__link" href="#contacts">Оставить заявку</a>
+            </article>
+
+            <article class="service-card" data-reveal style="--delay: 0.18s">
+              <span class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M7.5 7.5h9v9h-9z" />
+                  <path d="M4.5 12h3M16.5 12h3M12 4.5v3M12 16.5v3" />
+                </svg>
+              </span>
+              <h3>Долгосрочная поддержка</h3>
+              <p>
+                Подходит клиентам, которым нужна регулярная помощь, сопровождение
+                процессов или консультации по мере необходимости.
+              </p>
+              <a class="service-card__link" href="#contacts">Узнать подробнее</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="process">
+        <div class="container">
+          <div class="section-heading section-heading--center" data-reveal>
+            <p class="eyebrow">Как проходит работа</p>
+            <h2>Понятный процесс без хаоса и лишних ожиданий</h2>
+            <p>
+              Клиент заранее понимает, что будет происходить дальше, какие данные
+              нужны и на каком этапе находится задача.
+            </p>
+          </div>
+
+          <ol class="process">
+            <li class="process-card" data-reveal style="--delay: 0.03s">
+              <span class="process-card__number">1</span>
+              <h3>Заявка и первый контакт</h3>
+              <p>Вы оставляете заявку на сайте, звоните или пишете в мессенджер.</p>
+            </li>
+            <li class="process-card" data-reveal style="--delay: 0.08s">
+              <span class="process-card__number">2</span>
+              <h3>Уточнение задачи</h3>
+              <p>Обсуждаем детали, сроки, формат работы и ожидаемый результат.</p>
+            </li>
+            <li class="process-card" data-reveal style="--delay: 0.13s">
+              <span class="process-card__number">3</span>
+              <h3>Предложение решения</h3>
+              <p>Получаете понятный план действий, стоимость и порядок взаимодействия.</p>
+            </li>
+            <li class="process-card" data-reveal style="--delay: 0.18s">
+              <span class="process-card__number">4</span>
+              <h3>Работа и сопровождение</h3>
+              <p>Выполняю задачу, держу связь и довожу процесс до нужного результата.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section section--accent" id="advantages">
+        <div class="container">
+          <div class="section-heading section-heading--center" data-reveal>
+            <p class="eyebrow">Почему нам доверяют</p>
+            <h2>Основа шаблона построена на доверии, ясности и нормальном сервисе</h2>
+            <p>
+              Блок легко адаптируется под любые реальные преимущества специалиста
+              или небольшой команды.
+            </p>
+          </div>
+
+          <div class="advantages-grid">
+            <article class="advantage-card" data-reveal style="--delay: 0.03s">
+              <span class="advantage-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M12 4 5 7v5c0 4.2 2.7 7.6 7 8 4.3-.4 7-3.8 7-8V7l-7-3Z" />
+                  <path d="m9.5 12 1.7 1.7 3.7-4" />
+                </svg>
+              </span>
+              <h3>Практический опыт</h3>
+              <p>Не общие слова, а рабочие решения, проверенные на реальных задачах.</p>
+            </article>
+
+            <article class="advantage-card" data-reveal style="--delay: 0.06s">
+              <span class="advantage-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M6 7.5h12M6 12h8M6 16.5h10" />
+                  <rect x="4" y="4" width="16" height="16" rx="3" />
+                </svg>
+              </span>
+              <h3>Понятные условия</h3>
+              <p>Объём работ, сроки и стоимость обсуждаются заранее, без сюрпризов.</p>
+            </article>
+
+            <article class="advantage-card" data-reveal style="--delay: 0.09s">
+              <span class="advantage-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M12 5a7 7 0 1 0 7 7" />
+                  <path d="M19 5v6h-6" />
+                </svg>
+              </span>
+              <h3>Оперативная связь</h3>
+              <p>Быстрый отклик по заявкам и чёткая коммуникация без пропаданий.</p>
+            </article>
+
+            <article class="advantage-card" data-reveal style="--delay: 0.12s">
+              <span class="advantage-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M12 12a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                  <path d="M5 20a7 7 0 0 1 14 0" />
+                </svg>
+              </span>
+              <h3>Индивидуальный подход</h3>
+              <p>Предлагаю решение под задачу клиента, а не универсальную заготовку.</p>
+            </article>
+
+            <article class="advantage-card" data-reveal style="--delay: 0.15s">
+              <span class="advantage-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M5 18.5h14M8 18.5v-6M12 18.5v-10M16 18.5v-4" />
+                </svg>
+              </span>
+              <h3>Прозрачность процесса</h3>
+              <p>Вы понимаете, на каком этапе находится работа и что происходит дальше.</p>
+            </article>
+
+            <article class="advantage-card" data-reveal style="--delay: 0.18s">
+              <span class="advantage-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M12 4 6 7v5c0 3.7 2.4 6.8 6 7.8 3.6-1 6-4.1 6-7.8V7l-6-3Z" />
+                  <path d="M12 9v4" />
+                  <circle cx="12" cy="15.5" r=".7" fill="currentColor" stroke="none" />
+                </svg>
+              </span>
+              <h3>Конфиденциальность</h3>
+              <p>Деликатные запросы, документы и переписка остаются строго между нами.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- АДАПТАЦИЯ: реальные отзывы удобно заменить прямо в карточках -->
+      <section class="section" id="reviews">
+        <div class="container">
+          <div class="section-heading section-heading--center" data-reveal>
+            <p class="eyebrow">Отзывы</p>
+            <h2>Отзывы, которые выглядят живо и подходят для демонстрации клиенту</h2>
+            <p>
+              Сейчас здесь демо-контент, но структура карточек уже готова под
+              реальные имена, города и тексты.
+            </p>
+          </div>
+
+          <div class="reviews-grid">
+            <article class="review-card" data-reveal style="--delay: 0.03s">
+              <div class="review-card__stars" aria-label="5 из 5">★★★★★</div>
+              <p>
+                «Нужен был спокойный специалист, который объяснит всё без лишней
+                воды. Получила чёткий план действий и быстрое сопровождение по всем вопросам».
+              </p>
+              <div class="review-card__author">
+                <strong>Марина К.</strong>
+                <span>Москва</span>
+              </div>
+            </article>
+
+            <article class="review-card" data-reveal style="--delay: 0.07s">
+              <div class="review-card__stars" aria-label="5 из 5">★★★★★</div>
+              <p>
+                «Понравилось, что не было навязывания лишних услуг. Всё по делу,
+                быстро ответили, заранее озвучили стоимость и уложились в сроки».
+              </p>
+              <div class="review-card__author">
+                <strong>Игорь П.</strong>
+                <span>Казань</span>
+              </div>
+            </article>
+
+            <article class="review-card" data-reveal style="--delay: 0.11s">
+              <div class="review-card__stars" aria-label="5 из 5">★★★★★</div>
+              <p>
+                «Работали полностью онлайн. Удобная коммуникация, документы и все
+                материалы присылали вовремя, вопросы закрыли без затяжек».
+              </p>
+              <div class="review-card__author">
+                <strong>Екатерина Л.</strong>
+                <span>Екатеринбург</span>
+              </div>
+            </article>
+
+            <article class="review-card" data-reveal style="--delay: 0.15s">
+              <div class="review-card__stars" aria-label="5 из 5">★★★★★</div>
+              <p>
+                «Обращался по рекомендации. На первом созвоне стало понятно, что
+                специалист действительно в теме и умеет объяснять нормальным языком».
+              </p>
+              <div class="review-card__author">
+                <strong>Сергей Н.</strong>
+                <span>Санкт-Петербург</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--soft" id="faq">
+        <div class="container faq">
+          <div class="section-heading section-heading--center" data-reveal>
+            <p class="eyebrow">FAQ</p>
+            <h2>Частые вопросы, которые снимают возражения до первого звонка</h2>
+            <p>
+              Блок аккордеона помогает компактно показать важную информацию без
+              перегрузки первого экрана и карточек услуг.
+            </p>
+          </div>
+
+          <div class="faq__list">
+            <article class="faq__item is-open" data-reveal>
+              <button class="faq__question" type="button" aria-expanded="true">
+                Сколько стоит услуга?
+              </button>
+              <div class="faq__answer">
+                <p>
+                  Стоимость зависит от объёма задачи, срочности и формата работы.
+                  После короткого уточнения вы получаете понятный ориентир по цене и срокам.
+                </p>
+              </div>
+            </article>
+
+            <article class="faq__item" data-reveal style="--delay: 0.04s">
+              <button class="faq__question" type="button" aria-expanded="false">
+                Как быстро вы отвечаете на заявки?
+              </button>
+              <div class="faq__answer">
+                <p>
+                  В рабочее время обычно отвечаю в течение 15-30 минут. Если запрос
+                  пришёл вечером, связываюсь с вами в ближайшее удобное окно.
+                </p>
+              </div>
+            </article>
+
+            <article class="faq__item" data-reveal style="--delay: 0.08s">
+              <button class="faq__question" type="button" aria-expanded="false">
+                Можно ли работать полностью онлайн?
+              </button>
+              <div class="faq__answer">
+                <p>
+                  Да. Для большинства запросов достаточно звонка, видеосвязи,
+                  мессенджеров и обмена документами в электронном виде.
+                </p>
+              </div>
+            </article>
+
+            <article class="faq__item" data-reveal style="--delay: 0.12s">
+              <button class="faq__question" type="button" aria-expanded="false">
+                Какие данные нужны на старте?
+              </button>
+              <div class="faq__answer">
+                <p>
+                  Обычно достаточно короткого описания ситуации и тех материалов,
+                  которые уже есть у вас на руках. Полный список уточняется после первичного контакта.
+                </p>
+              </div>
+            </article>
+
+            <article class="faq__item" data-reveal style="--delay: 0.16s">
+              <button class="faq__question" type="button" aria-expanded="false">
+                Как проходит консультация?
+              </button>
+              <div class="faq__answer">
+                <p>
+                  Сначала вы кратко описываете задачу, затем мы уточняем детали,
+                  разбираем ситуацию и определяем дальнейшие шаги в удобном формате.
+                </p>
+              </div>
+            </article>
+
+            <article class="faq__item" data-reveal style="--delay: 0.2s">
+              <button class="faq__question" type="button" aria-expanded="false">
+                Как записаться?
+              </button>
+              <div class="faq__answer">
+                <p>
+                  Оставьте заявку через форму, позвоните или напишите в Telegram / WhatsApp.
+                  После этого согласуем формат и ближайшее доступное время.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- АДАПТАЦИЯ: форма, телефоны, email, мессенджеры и адрес меняются в блоке контактов -->
+      <section class="section contacts-section" id="contacts">
+        <div class="container contacts">
+          <div class="contacts__content">
+            <div class="section-heading" data-reveal>
+              <p class="eyebrow">Контакты и заявка</p>
+              <h2>Оставьте заявку, и я свяжусь с вами в ближайшее время</h2>
+              <p>
+                Заполните форму, позвоните или напишите в мессенджер. Если задача
+                подходит под мой профиль, быстро предложу удобный формат работы.
+              </p>
+            </div>
+
+            <div class="contacts__cards">
+              <article class="contact-card" data-reveal style="--delay: 0.04s">
+                <span>Телефон</span>
+                <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+              </article>
+              <article class="contact-card" data-reveal style="--delay: 0.08s">
+                <span>Email</span>
+                <a href="mailto:hello@mironov-demo.ru">hello@mironov-demo.ru</a>
+              </article>
+              <article class="contact-card" data-reveal style="--delay: 0.12s">
+                <span>Мессенджеры</span>
+                <div class="contact-card__messengers">
+                  <a href="https://t.me/demo_expert" target="_blank" rel="noopener noreferrer">
+                    Telegram
+                  </a>
+                  <a href="https://wa.me/79991234567" target="_blank" rel="noopener noreferrer">
+                    WhatsApp
+                  </a>
+                </div>
+              </article>
+              <article class="contact-card" data-reveal style="--delay: 0.16s">
+                <span>Адрес и график</span>
+                <p>Москва, Пресненская наб., 12</p>
+                <p>Пн-Сб, 09:00-20:00</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap" data-reveal style="--delay: 0.08s">
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-field">
+                <label for="name">Имя</label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="Как к вам обращаться"
+                  autocomplete="name"
+                  required
+                />
+                <small class="field-error" aria-live="polite"></small>
+              </div>
+
+              <div class="form-field">
+                <label for="phone">Телефон</label>
+                <input
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  placeholder="+7 (___) ___-__-__"
+                  autocomplete="tel"
+                  required
+                />
+                <small class="field-error" aria-live="polite"></small>
+              </div>
+
+              <div class="form-field">
+                <label for="message">Сообщение</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Коротко опишите задачу"
+                  required
+                ></textarea>
+                <small class="field-error" aria-live="polite"></small>
+              </div>
+
+              <button class="btn btn--primary btn--full" type="submit">
+                Отправить заявку
+              </button>
+              <p class="form-note">
+                Нажимая кнопку, вы соглашаетесь с обработкой персональных данных.
+              </p>
+              <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <div>
+          <strong>ИП Алексей Миронов</strong>
+          <p>Профессиональные услуги и сопровождение частных клиентов и малого бизнеса.</p>
+        </div>
+
+        <div class="site-footer__contacts">
+          <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+          <a href="mailto:hello@mironov-demo.ru">hello@mironov-demo.ru</a>
+          <a href="https://t.me/demo_expert" target="_blank" rel="noopener noreferrer">
+            Telegram
+          </a>
+          <button class="footer-link" type="button" data-modal-open="privacy-modal">
+            Политика конфиденциальности
+          </button>
+        </div>
+
+        <p class="site-footer__copy">© 2026. Все права защищены.</p>
+      </div>
+    </footer>
+
+    <div class="modal" id="privacy-modal" hidden>
+      <div class="modal__overlay" data-modal-close></div>
+      <div
+        class="modal__dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="privacy-title"
+      >
+        <button class="modal__close" type="button" aria-label="Закрыть" data-modal-close>
+          ×
+        </button>
+        <h2 id="privacy-title">Политика конфиденциальности</h2>
+        <p>
+          Этот блок сделан как демо-заглушка для шаблона. Перед публикацией замените
+          текст на актуальную политику под конкретного специалиста или ИП.
+        </p>
+        <p>
+          При отправке формы могут обрабатываться имя, телефон и сообщение клиента
+          только для обратной связи по заявке. Данные не передаются третьим лицам,
+          кроме случаев, предусмотренных законом или выбранным сервисом обработки форм.
+        </p>
+        <p>
+          Для интеграции формы можно подключить Formspree, серверный обработчик,
+          Telegram-бота или email-отправку. Место для подключения отмечено в файле
+          <code>assets/js/main.js</code>.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
